@@ -7,5 +7,7 @@ public class Arc {
     Arc(Sommet origin,Sommet destination){
         this.origin = origin;
         this.destination = destination;
+        origin.addArc(this);
+        destination.addArc(this);
     }
 }

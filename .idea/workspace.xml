@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a98ab2-57f9-4aa8-bbc7-2e84dfc92827" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GrapheV2/Arc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GrapheV2/Graphe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GrapheV2/Sommet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GrapheV2/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrapheV2/Arc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GrapheV2/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GrapheV2/Sommet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,23 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Arc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GrapheV2/Arc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sommet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sommet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GrapheV2/Sommet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/graphe/AlgorithmeGraphe.java" />
         <option value="$PROJECT_DIR$/src/graphe/Arc.java" />
         <option value="$PROJECT_DIR$/src/GrapheV2/Graphe.java" />
-        <option value="$PROJECT_DIR$/src/GrapheV2/Sommet.java" />
         <option value="$PROJECT_DIR$/src/GrapheV2/Arc.java" />
+        <option value="$PROJECT_DIR$/src/GrapheV2/Sommet.java" />
       </list>
     </option>
   </component>
@@ -173,6 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546452090209" />
@@ -219,16 +220,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546523565423</updated>
-      <workItem from="1546523566715" duration="3058000" />
+      <workItem from="1546523566715" duration="3310000" />
     </task>
+    <task id="LOCAL-00001" summary="v2 start">
+      <created>1546527149206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546527149206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3058000" />
+    <option name="totallyTimeSpent" value="3310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Palette" />
@@ -268,6 +276,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2 start" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/graphe/Graphe.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -284,17 +296,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GrapheV2/Sommet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -329,8 +330,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GrapheV2/Arc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GrapheV2/Sommet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
