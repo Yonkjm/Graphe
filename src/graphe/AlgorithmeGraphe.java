@@ -2,12 +2,12 @@ package graphe;
 
 import java.util.*;
 
-class AlgorithmeGraphe {
+public class AlgorithmeGraphe {
     private List<Set<Sommet>> sommets;
     private Graphe grapheFinal;
 
 
-    AlgorithmeGraphe(){
+    public AlgorithmeGraphe(){
         sommets = new ArrayList<>();
     }
 
@@ -39,7 +39,7 @@ class AlgorithmeGraphe {
         sommets.add(set4);
     }
 
-    void compute(){
+    public void compute(){
         dataBase();
         grapheFinal = new Graphe();
         boolean firstIteration = true;
