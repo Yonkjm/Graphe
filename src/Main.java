@@ -7,9 +7,29 @@ import java.util.List;
 
 public class Main {
     public static void main(String ...args ){
-        testGenerateIC(5, 6, 3);
-        testGenerateIC(6, 10, 2);
-        testGenerateIC(3, 2, 6);
+        //testAlgoIC2(5, 10, 4);
+        //testAlgoIC1();
+        testAlgoIC3(5, 10, 4);
+    }
+
+    private static void testAlgoIC3(int t, int n, int p) {
+        System.out.println("----------AlgoIC3----------\n");
+        IC ic = new IC();
+        ic.generate(t, n, p);
+        System.out.println(ic.toString());
+        AlgoIC3 algoIC3 = new AlgoIC3();
+        algoIC3.compute(ic);
+        System.out.println(ic.getGraphe().toString());
+    }
+
+    private static void testAlgoIC2(int t, int n, int p) {
+        System.out.println("----------AlgoIC2----------\n");
+        IC ic = new IC();
+        ic.generate(t, n, p);
+        System.out.println(ic.toString());
+        AlgoIC2 algoIC2 = new AlgoIC2();
+        algoIC2.compute(ic);
+        System.out.println(ic.getGraphe().toString());
     }
 
     private static void testGenerateIC(int t, int n, int p) {
@@ -52,19 +72,9 @@ public class Main {
             add(s6);
             add(s8);
         }});
-        Graphe graphe = new Graphe();
-        graphe.addVertex(s1);
-        graphe.addVertex(s2);
-        graphe.addVertex(s3);
-        graphe.addVertex(s4);
-        graphe.addVertex(s5);
-        graphe.addVertex(s6);
-        graphe.addVertex(s7);
-        graphe.addVertex(s8);
         AlgoIC1 algoIC1 = new AlgoIC1();
-
         System.out.println(ic.toString());
         algoIC1.compute(ic);
-        System.out.println(graphe.toString());
+        System.out.println(ic.getGraphe().toString());
     }
 }

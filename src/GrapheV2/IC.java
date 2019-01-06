@@ -8,15 +8,28 @@ public class IC {
 
     private List<List<Sommet>> donnees;
     private List<Sommet> sommets;
+    private Graphe graphe;
 
     public IC() {
         donnees = new ArrayList<>();
         sommets = new ArrayList<>();
+        graphe = new Graphe();
+    }
+
+    public Graphe getGraphe() {
+        return graphe;
+    }
+
+    public List<Sommet> getSommets() {
+        return sommets;
     }
 
     public void addSet(List<Sommet> set) {
         for(Sommet s : set) {
-            if(!sommets.contains(s)) sommets.add(s);
+            if(!sommets.contains(s)) {
+                sommets.add(s);
+                graphe.addVertex(s);
+            }
         }
         donnees.add(set);
     }
@@ -50,6 +63,9 @@ public class IC {
                 list.add(s);
             }
             donnees.add(list);
+        }
+        for(Sommet s : sommets) {
+            graphe.addVertex(s);
         }
     }
 

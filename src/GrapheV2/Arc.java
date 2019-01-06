@@ -11,6 +11,14 @@ public class Arc {
         destination.addArc(this);
     }
 
+    public Sommet getOrigin() {
+        return origin;
+    }
+
+    public Sommet getDestination() {
+        return destination;
+    }
+
     public Sommet getOppositeVertex(Sommet sommet) {
         if(sommet.equals(origin)) {
             return destination;

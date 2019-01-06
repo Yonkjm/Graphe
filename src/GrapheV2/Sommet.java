@@ -20,6 +20,21 @@ public class Sommet {
         arcs.add(arc);
     }
 
+    public void removeArc(Arc arc) {
+        arcs.remove(arc);
+    }
+
+    public List<Arc> getArcs() {
+        return arcs;
+    }
+
+    public boolean isNotLinkedTo(Sommet sommet) {
+        for(Arc arc : arcs) {
+            if(arc.getOppositeVertex(this).equals(sommet)) return false;
+        }
+        return true;
+    }
+
     @Override
     public String toString() {
         String result = name + " -> ";
